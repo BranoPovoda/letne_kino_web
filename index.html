@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Letné kino na Ľubianke | letnekino.sk</title>
-  <meta name="description" content="Letné kino na Ľubianke v Oslanoch, časť Ľubianka. Program, kontakt a informácie o letnom kine organizovanom Umelicou.">
+  <title>Letné kino Stodola na Ľubianke | letnekino.sk</title>
+  <meta name="description" content="Letné kino na Ľubianke v Oslanoch, časť Ľubianka. Program, kontakt a informácie o letnom kine organizovanom združením Umelica.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="hero">
     <div class="content">
-      <p class="eyebrow">Letné kino na Ľubianke</p>
-      <h1>Letné kino na Ľubianke</h1>
+      <p class="eyebrow">Letné kino Stodola na Ľubianke</p>
+      <h1>Letné kino Stodola na Ľubianke</h1>
       <p class="subtitle">Tradičné letné kino, ktoré začína 13. sezónu.</p>
     </div>
   </header>
@@ -21,34 +21,65 @@
       <h2>Program</h2>
       <p>Program nájdete nižšie. Pozrite si prehľad letného premietania.</p>
       <div class="program-image">
-        <img src="program_kino_2026.jpeg" alt="Program letného kina na Ľubianke" />
+        <img id="programImage" src="program_kino_2026.jpeg" alt="Program letného kina Stodola na Ľubianke" />
       </div>
+      <p class="program-hint">Kliknite na program pre zobrazenie na celú obrazovku.</p>
       <p>Zmena v programe je vyhradená.</p>
     </section>
 
     <section id="o-nas" class="card">
       <h2>O nás</h2>
-      <p>Letné kino na Ľubianke prevádzkuje kultúrna organizácia Umelica ako rodinné kino pre všetky generácie. Naším cieľom je prinášať ľuďom nezabudnuteľné filmové zážitky, budovať komunitu a podporovať kultúru.</p>
+      <p>Letné kino Stodola na Ľubianke prevádzkuje kultúrna organizácia Umelica ako rodinné kino pre všetky generácie. Naším cieľom je prinášať ľuďom nezabudnuteľné filmové zážitky, budovať komunitu a podporovať kultúru.</p>
       <p>Premietame hodnotné filmy z aktuálnej mainstreamovej produkcie. Začíname 13. sezónu.</p>
     </section>
 
     <section id="kontakt" class="card">
       <h2>Kontakt</h2>
-      <p>Máte otázky alebo chcete vedieť viac o našom programe? Kontaktujte nás cez sociálne siete alebo pozrite mapu prevádzky.</p>
-      <address>
-        <strong>Umelica</strong><br>
-        Letné kino na Ľubianke<br>
-      </address>
-      <p>Email: <a href="mailto:monika.sandrikova@gmail.com">monika.sandrikova@gmail.com</a></p>
-      <p>Instagram: <a href="https://www.instagram.com/letne_kino_stodola/" target="_blank" rel="noreferrer">@letne_kino_stodola</a></p>
-      <p>Facebook: <a href="https://www.facebook.com/kinostodola" target="_blank" rel="noreferrer">kino stodola</a></p>
-      <p>Mapa: <a href="https://maps.app.goo.gl/1djrMVVv9pWopeet7" target="_blank" rel="noreferrer">Nájdite nás na mape</a></p>
+      <div class="contact-icons">
+        <a class="contact-icon" href="mailto:monika.sandrikova@gmail.com" aria-label="Email" title="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 6h18a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm0 2v.5l9 5.6 9-5.6V8l-9 5.5L3 8z"/>
+          </svg>
+        </a>
+        <a class="contact-icon" href="https://www.instagram.com/letne_kino_stodola/" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm11 1.8a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+          </svg>
+        </a>
+        <a class="contact-icon" href="https://www.facebook.com/kinostodola" target="_blank" rel="noreferrer" aria-label="Facebook" title="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.5 1.6-1.5h1.7V4.9c-.3 0-1.2-.1-2.4-.1-2.3 0-3.8 1.4-3.8 4V11H8v3h2.6v8h2.9z"/>
+          </svg>
+        </a>
+        <a class="contact-icon" href="https://maps.app.goo.gl/1djrMVVv9pWopeet7" target="_blank" rel="noreferrer" aria-label="Mapa" title="Mapa">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2a7 7 0 0 1 7 7c0 4.7-7 13-7 13S5 13.7 5 9a7 7 0 0 1 7-7zm0 9.5A2.5 2.5 0 1 0 12 6a2.5 2.5 0 0 0 0 5.5z"/>
+          </svg>
+        </a>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>Letné kino na Lubianke • organizované Umelicou</p>
-    <p>Doména: <a href="https://letnekino.sk" target="_blank" rel="noreferrer">letnekino.sk</a></p>
+    <p>Letné kino Stodola na Ľubianke • organizované združením Umelica</p>
+    <p><a href="https://letnekino.sk" target="_blank" rel="noreferrer">letnekino.sk</a></p>
   </footer>
+
+  <script>
+    const programImage = document.getElementById('programImage');
+
+    if (programImage) {
+      programImage.addEventListener('click', async () => {
+        if (document.fullscreenElement) {
+          await document.exitFullscreen();
+          return;
+        }
+
+        if (programImage.requestFullscreen) {
+          await programImage.requestFullscreen();
+        }
+      });
+    }
+  </script>
 </body>
 </html>
